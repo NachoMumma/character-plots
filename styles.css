@@ -1,0 +1,204 @@
+/* Core Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfaff;
+  background-image: 
+    url('https://i.imgur.com/3ZPwo2W.png'), 
+    url('https://www.transparenttextures.com/patterns/lined-paper.png');
+  background-blend-mode: overlay;
+  background-size: 200px, auto;
+  margin: 0;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.plot-page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Fancy Header */
+.fancy-header {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #d46fa2;
+}
+
+.header-stars {
+  font-size: 1.5rem;
+  color: #90e0ef;
+  margin: 5px 0;
+}
+
+/* Character Cards */
+.plot-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.plot-card {
+  background: #fff;
+  border: 2px solid var(--accent-color);
+  border-radius: 18px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.plot-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  background-color: #fef6fb;
+  background-image: 
+    url('https://i.imgur.com/3ZPwo2W.png'); /* sparkle pattern */
+  background-size: 150px;
+  background-repeat: repeat;
+  background-blend-mode: lighten;
+}
+
+.plot-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid var(--accent-color);
+}
+
+.plot-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #4b3b36;
+  margin-bottom: 10px;
+}
+
+.plot-summary {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+.plot-links {
+  margin-bottom: 15px;
+}
+
+.plot-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.plot-link:hover {
+  text-decoration: underline;
+}
+
+/* Seeking */
+.plot-seeking-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #5a4a42;
+}
+
+.plot-seeking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #555;
+}
+
+.plot-seeking-list li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  position: relative;
+  padding-left: 1em;
+}
+
+.plot-seeking-list li::before {
+  content: '♡';
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+}
+
+.plot-skills {
+  margin-bottom: 15px;
+}
+
+.plot-skills-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #5a4a42;
+}
+
+.plot-skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #555;
+}
+
+.plot-skills-list li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  position: relative;
+  padding-left: 1em;
+}
+
+.plot-skills-list li::before {
+  content: '✦';
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+}
+
+/* Pastel Loading Screen */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fef6fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+.loader-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #d46fa2;
+}
+
+.dot {
+  animation: blink 1.5s infinite;
+}
+
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+/* Footer */
+.page-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  font-family: 'Playfair Display', serif;
+}
