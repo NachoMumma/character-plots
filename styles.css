@@ -155,8 +155,9 @@ body {
 }
 
 .plot-seeking-list li::before {
-  content: "• ";
-  color: var(--accent-color);
+  content: "♡ ";
+  color: #ffcce7; /* soft pastel pink */
+  font-weight: bold;
 }
 
 /* Footer */
