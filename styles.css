@@ -75,13 +75,13 @@ body {
 .plot-name {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  color: #4b3b36;
+  color: #f0f0f0;
   margin-bottom: 10px;
 }
 
 .plot-summary {
   font-size: 1rem;
-  color: #666;
+  color: #f2f2f2;
   margin-bottom: 15px;
   padding: 0 10px;
 }
@@ -106,14 +106,14 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   margin-bottom: 8px;
-  color: #5a4a42;
+  color: #f2f2f2;
 }
 
 .plot-seeking-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #555;
+  color: #e6e9ff;
 }
 
 .plot-seeking-list li {
@@ -145,7 +145,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #555;
+  color: #e6e9ff;
 }
 
 .plot-skills-list li {
