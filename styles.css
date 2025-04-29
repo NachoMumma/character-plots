@@ -167,12 +167,6 @@ body {
   color: #e6e9ff;
 }
 
-.contact-discord a {
-  color: #ffcce7;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .contact-discord a,
 .discord-card-link a {
   color: #e6e9ff; /* pale lavender */
