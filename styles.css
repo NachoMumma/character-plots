@@ -173,8 +173,14 @@ body {
   font-weight: bold;
 }
 
-.contact-discord a:hover {
-  text-decoration: underline;
+.contact-discord a,
+.discord-card-link a {
+  color: #e6e9ff; /* pale lavender */
+}
+
+.contact-discord a:hover,
+.discord-card-link a:hover {
+  color: #cfcfff;
 }
 
 .discord-card-link {
@@ -189,6 +195,17 @@ body {
 }
 
 .discord-card-link a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #ffcce7; /* soft pastel pink */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ff9ccf; /* slightly brighter pink on hover */
   text-decoration: underline;
 }
 
