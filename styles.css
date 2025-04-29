@@ -1,15 +1,16 @@
 /* Core Reset */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fdfaff;
+  background-color: #1b1f2f; /* deep indigo stormy blue */
   background-image: 
-    url('https://i.imgur.com/3ZPwo2W.png'), 
-    url('https://www.transparenttextures.com/patterns/lined-paper.png');
-  background-blend-mode: overlay;
-  background-size: 200px, auto;
+    url('https://www.transparenttextures.com/patterns/grey_wash_wall.png'),
+    url('https://i.imgur.com/3ZPwo2W.png'); /* sparkles */
+  background-blend-mode: overlay, lighten;
+  background-size: auto, 150px;
+  background-repeat: repeat, repeat;
   margin: 0;
   padding: 40px 20px;
-  color: #333;
+  color: #e0e0e0; /* light text to match darker bg */
 }
 
 .plot-page-wrapper {
