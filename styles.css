@@ -160,6 +160,38 @@ body {
   font-weight: bold;
 }
 
+.contact-discord {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #e6e9ff;
+}
+
+.contact-discord a {
+  color: #ffcce7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-discord a:hover {
+  text-decoration: underline;
+}
+
+.discord-card-link {
+  margin-top: 15px;
+  font-size: 0.85rem;
+}
+
+.discord-card-link a {
+  color: #ffcce7;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.discord-card-link a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .page-footer {
   text-align: center;
