@@ -39,7 +39,8 @@ body {
 }
 
 .plot-card {
-  background: #fff;
+  background-color: #252839; /* deep navy-grey, slightly translucent */
+  color: #eaeaea; 
   border: 2px solid var(--accent-color);
   border-radius: 18px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.08);
@@ -54,7 +55,7 @@ body {
 .plot-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-  background-color: #fef6fb;
+  background-color: #2d3047;
   background-image: 
     url('https://i.imgur.com/3ZPwo2W.png'); /* sparkle pattern */
   background-size: 150px;
