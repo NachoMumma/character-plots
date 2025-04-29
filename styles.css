@@ -4,13 +4,13 @@ body {
   background-color: #1b1f2f; /* deep indigo stormy blue */
   background-image: 
     url('https://www.transparenttextures.com/patterns/grey_wash_wall.png'),
-    url('https://i.imgur.com/3ZPwo2W.png'); /* sparkles */
+    url('https://www.transparenttextures.com/patterns/stardust.png');
   background-blend-mode: overlay, lighten;
   background-size: auto, 150px;
   background-repeat: repeat, repeat;
   margin: 0;
   padding: 40px 20px;
-  color: #e0e0e0; /* light text to match darker bg */
+  color: #e0e0e0;
 }
 
 .plot-page-wrapper {
